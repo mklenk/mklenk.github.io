@@ -5,7 +5,8 @@
 @base-color:#e74344;
 
 body{
-	font: 10px Arial;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
 	background-image: url('../img/bg.jpg')
 }
 
@@ -42,7 +43,6 @@ a{
 	position:relative;
 	background:#fff;
 	width: 860px;
-	height: 1112px;
 	img{
 		max-width:100%;
 	}
@@ -53,7 +53,10 @@ a{
 	height:20px;
 	width:100%;
 	margin-bottom:160px;
-	.border-radius(5px, 0, 0, 5px)
+	.border-radius(5px, 0, 0, 5px);
+	&.small{
+		margin-bottom:0px;
+	}
 }
 
 .title{
@@ -125,8 +128,61 @@ ul.data{
 	margin-bottom: 8px;
 }
 
-.certificate .header-bar{
-	margin-bottom: 0;
+.reference{
+	display:block;
+	.transition();
+	cursor: pointer;
+	padding: 15px 0px 15px 5px;
+	border-bottom: 1px solid lighten(@base-color, 35%);
+	color:black;
+	font-size:1.2em;
+	height:170px;
+	.logo{
+		margin-right: 15px;
+		float:left;
+		width:230px;
+		text-align:center;
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	.description{
+		float: left;
+		width:510px;
+		>ul{
+			float: left;
+			width: 48%;
+			margin: 0 1%;
+			>li{
+				border-bottom: 1px solid #efefef;
+			}
+			li{
+				list-style-position: inside;
+				list-style-type: none;
+			}
+			>li:first-child{
+				list-style-type: none;
+				font-size:1.1em;
+				font-weight: bold;
+			}
+			ul{
+				padding-left:10px;
+				li{
+					list-style-type: circle;
+				}
+			}
+		}
+	}
+	h2{
+		font-size:1.2em;
+		margin-top:0;
+	}
+	&:hover{
+//		border-left: 20px solid @base-color;
+//		padding-left:20px;
+	}
 }
 
 #zeugnis{
@@ -170,6 +226,13 @@ ul.data{
 }
 
 @media print{
+	body{
+		font-family: Arial, sans-serif;
+		background-image: none;
+	}
+	.document{
+		height: 1112px;
+	}
 	a{
 		color:black;
 	}
