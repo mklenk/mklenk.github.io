@@ -135,7 +135,8 @@ ul.data{
 	border-bottom: 1px solid lighten(@base-color, 35%);
 	color:black;
 	font-size:1.2em;
-	height:170px;
+	height:180px;
+	width:100%;
 	.logo{
 		margin-right: 15px;
 		float:left;
@@ -143,9 +144,7 @@ ul.data{
 		text-align:center;
 		position: relative;
 		top: 50%;
-		-webkit-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		transform: translateY(-50%);
+		.transform(translateY(-50%));
 	}
 	.description{
 		float: left;
@@ -193,16 +192,32 @@ ul.data{
 	.content{
 		padding: 0 5%;
 	}
-    .column-left, .column-right{
-	    width: 100%;
-	    float: none;
-    }
-    .column-right .paragraph{
-	    width:50%;
-	    float:left;
-    }
+	.column-left, .column-right{
+		width: 100%;
+		float: none;
+	}
+	.column-right .paragraph{
+		width:50%;
+		float:left;
+	}
 	.header-bar{
 		margin-bottom: 10%;
+	}
+
+	.reference{
+		height:auto;
+		.description{
+			float:none;
+			width:100%;
+		}
+		.logo{
+			margin-right: 0;
+			float:none;
+			width:100%;
+			text-align:center;
+			position: static;
+			.transform(translateY(0));
+		}
 	}
 }
 
