@@ -1,0 +1,25 @@
+{
+  "name": "mklenk.github.io",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "html": "hackmyresume build resume.json TO index.html -t node_modules/jsonresume-theme-elegant-de",
+    "pdf": "hackmyresume build resume.json TO index.pdf -t node_modules/jsonresume-theme-elegant-de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mklenk/mklenk.github.io.git"
+  },
+  "author": "Marcel Klenk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mklenk/mklenk.github.io/issues"
+  },
+  "homepage": "https://github.com/mklenk/mklenk.github.io#readme",
+  "dependencies": {
+    "hackmyresume": "^1.9.0-beta",
+    "jsonresume-theme-elegant-de": "github:mklenk/jsonresume-theme-elegant#master",
+    "jsonresume-theme-elegant-jali": "github:mklenk/jsonresume-theme-elegant#master"
+  }
+}

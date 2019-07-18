@@ -2,11 +2,11 @@
     "basics": {
         "name": "Marcel Klenk",
         "label": "Full-Stack Developer",
-        "picture": "http://mklenk.github.io/img/Marcel%20Klenk.jpg",
+        "picture": "./img/Marcel%20Klenk.jpg",
         "email": "klenk@outlook.com",
         "phone": "0176/63346514",
         "website": "http://mklenk.github.io/",
-        "summary": "…wurde am 29. September 1987 in\nBacknang geboren. Nach dem Realschulabschluss absolvierte er eine Ausbildung zum Mediengestalter in der\nFachrichtung Gestaltung und Technik\nbei der Michael Reichart GmbH, einer\nkleinen Medienagentur in Bad Cannstatt. Neben der Konzeption und Umsetzung von Webseiten kümmerte er\nsich dort auch um die IT-Infrastruktur,\ndie Serververwaltung und um die Kundenbetreuung.\nNachdem das Unternehmen im September 2012 geschlossen wurde, machte sich Klenk selbstständig und übernahm dabei einige der Kunden. In den\nzwei folgenden Jahren war er für Konzeption und Umsetzung, Marketing und\nSuchmaschinenoptimierung für die\nWebseiten der mittelständischen Unternehmen, die er betreute, zuständig.\nEnde 2014 gab Klenk seine Selbstständigkeit auf, da er sich in Richtung Softwareentwicklung neu orientieren wollte.",
+        "summary": "Ich wurde am 29. September 1987 in Backnang geboren. Nach dem Realschulabschluss absolvierte ich eine Ausbildung zum Mediengestalter in der Fachrichtung Gestaltung und Technik bei der Michael Reichart GmbH, einer kleinen Medienagentur im Herzen Bad Cannstatts. Neben der Konzeption und Umsetzung von Webseiten kümmerte ich mich dort auch um die IT-Infrastruktur, die Serververwaltung und um die Kundenbetreuung.\nNachdem das Unternehmen im September 2012 geschlossen wurde, machte ich mich selbstständig und übernahm dabei einige der Kunden. In den zwei folgenden Jahren war ich für Konzeption und Umsetzung, Entwicklung, Marketing und Suchmaschinenoptimierung für die Webseiten der mittelständischen Unternehmen, die ich betreute, zuständig. Ende 2015 gab ich meine Selbstständigkeit auf, da ich mich in Richtung Softwareentwicklung weiter orientieren wollte.\nAnschließend habe ich Anfang 2016 bei der MEDIVERBUND AG als Softwareentwickler angefangen, wo ich unter anderem für die Pflege der bestehenden, in-house entwickelten Web-Anwendungen, als auch die Entwicklung der neuen Web-Anwendungen zuständig war.",
         "location": {
             "address": "Am Schwanenplatz 7",
             "postalCode": "70190",
@@ -25,11 +25,35 @@
         "position": "Full-Stack Entwickler",
         "startDate": "2016-03-01",
         "highlights": [
-
+            "Entwicklung verschiedener In-House Applikationen",
+            "Weiterentwicklung und Pflege des eigens entwickelten Abrechnungssystems (Symfony)",
+            "Weiterentwicklung und Pflege des eigens entwickelten Ticketsystems (Symfony)",
+            "Entwicklung eines Portals mit dem Kunden ihre Abrechnungsdaten einsehen und verwalten können (Symfony)",
+            "Entwicklung einer Arztsuche (Symfony, Solr als Suchindex)",
+            "Entwicklung eines CMS nach spezifischen Anforderungen der einzelnen Abteilungen (Symfony, React)",
+            "Neuentwicklung von einem bestehenden CRM zur Mitgliederverwaltung, Beitragsabrechnung, Aussendungssystem und Integration in die verschiedenen bestehenden Anwendungen (Symfony, Angular, ELK-Stack, GraphQL)",
+            "Verwaltung der Deployment und CI pipelines via Jenkins, puppet, ansible und docker",
+            "Unterstützung der Administration bei verschiedenen Aufgaben (Einrichtung von Servern und Software)"
+            
+        ]
+    }, {
+        "company": "Selbstständig",
+        "position": "Webentwickler",
+        "startDate": "2012-09-01",
+        "endDate": "2015-09-01",
+        "highlights": [
+            "Entwicklung von Webseiten und Webapplikationen",
+            "Frontend-Entwicklung mit HTML5, CSS3, jQuery",
+            "Backend-Entwicklung mit PHP4/5, MySQL",
+            "Wordpress und eigene CMS Entwicklung",
+            "Anwendungs- und Webdesign",
+            "SEO",
+            "Printmedien",
+            "Linux Serveradministration"
         ]
     }, {
         "company": "Michael Reichart GmbH",
-        "position": "Mediengestalter Digital und Print",
+        "position": "Mediengestalter Gestaltung und Technik",
         "startDate": "2011-02-01",
         "endDate": "2012-09-01",
         "highlights": [
@@ -43,20 +67,22 @@
         ]
     }, {
         "company": "Michael Reichart GmbH",
-        "position": "Auszubildender zum Mediengestalter Digital und Print",
+        "position": "Auszubildender zum Mediengestalter Gestaltung und Technik",
         "startDate": "2008-09-01",
         "endDate": "2011-02-01"
     }],
     "education": [{
         "institution": "Realschule Oberesslingen",
+        "area": "Realschule",
         "studyType": "Mittlere Reife",
         "startDate": "1998",
         "endDate": "2005"
     }, {
-        "institution": "Johannes-Gutenberg-Schule Stuttgart (Berufskolleg)",
+        "institution": "Johannes-Gutenberg-Schule Stuttgart",
+        "area": "Berufskolleg",
         "studyType": "Ausbildung",
-        "startDate": "1998",
-        "endDate": "2005"
+        "startDate": "2008-09-01",
+        "endDate": "2011-02-01"
     }],
     "skills": [{
         "name": "Frontend",
@@ -74,7 +100,8 @@
             "PHP",
             "Symfony",
             "GraphQL",
-            "REST"
+            "REST",
+            "MySQL"
         ]
     }, {
         "name": "DevOps",
@@ -82,7 +109,10 @@
             "Docker",
             "Puppet",
             "Ansible",
-            "Jenkins"
+            "Jenkins",
+            "ELK-Stack",
+            "RabbitMQ",
+            "Redis"
         ]
     }],
     "languages": [{
