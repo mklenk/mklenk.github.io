@@ -1,0 +1,95 @@
+{
+    "basics": {
+        "name": "Marcel Klenk",
+        "label": "Full-Stack Developer",
+        "picture": "http://mklenk.github.io/img/Marcel%20Klenk.jpg",
+        "email": "klenk@outlook.com",
+        "phone": "0176/63346514",
+        "website": "http://mklenk.github.io/",
+        "summary": "…wurde am 29. September 1987 in\nBacknang geboren. Nach dem Realschulabschluss absolvierte er eine Ausbildung zum Mediengestalter in der\nFachrichtung Gestaltung und Technik\nbei der Michael Reichart GmbH, einer\nkleinen Medienagentur in Bad Cannstatt. Neben der Konzeption und Umsetzung von Webseiten kümmerte er\nsich dort auch um die IT-Infrastruktur,\ndie Serververwaltung und um die Kundenbetreuung.\nNachdem das Unternehmen im September 2012 geschlossen wurde, machte sich Klenk selbstständig und übernahm dabei einige der Kunden. In den\nzwei folgenden Jahren war er für Konzeption und Umsetzung, Marketing und\nSuchmaschinenoptimierung für die\nWebseiten der mittelständischen Unternehmen, die er betreute, zuständig.\nEnde 2014 gab Klenk seine Selbstständigkeit auf, da er sich in Richtung Softwareentwicklung neu orientieren wollte.",
+        "location": {
+            "address": "Am Schwanenplatz 7",
+            "postalCode": "70190",
+            "city": "Stuttgart",
+            "countryCode": "DE",
+            "region": "Baden-Württemberg"
+        },
+        "profiles": [{
+            "network": "Github",
+            "username": "mklenk",
+            "url": "http://github.com/mklenk"
+        }]
+    },
+    "work": [{
+        "company": "MEDIVERBUND AG",
+        "position": "Full-Stack Entwickler",
+        "startDate": "2016-03-01",
+        "highlights": [
+
+        ]
+    }, {
+        "company": "Michael Reichart GmbH",
+        "position": "Mediengestalter Digital und Print",
+        "startDate": "2011-02-01",
+        "endDate": "2012-09-01",
+        "highlights": [
+            "Projektmanager & Konzepter für kundenspezifische Anwendungen",
+            "Frontend-Entwicklung mit HTML5, CSS3, jQuery",
+            "Backend-Entwicklung mit PHP4/5, MySQL",
+            "Wordpress, Joomla, Zen Cart und eigene CMS Entwicklung",
+            "Anwendungs- und Webdesign",
+            "Linux Serveradministration",
+            "Kundenpflege"
+        ]
+    }, {
+        "company": "Michael Reichart GmbH",
+        "position": "Auszubildender zum Mediengestalter Digital und Print",
+        "startDate": "2008-09-01",
+        "endDate": "2011-02-01"
+    }],
+    "education": [{
+        "institution": "Realschule Oberesslingen",
+        "studyType": "Mittlere Reife",
+        "startDate": "1998",
+        "endDate": "2005"
+    }, {
+        "institution": "Johannes-Gutenberg-Schule Stuttgart (Berufskolleg)",
+        "studyType": "Ausbildung",
+        "startDate": "1998",
+        "endDate": "2005"
+    }],
+    "skills": [{
+        "name": "Frontend",
+        "keywords": [
+            "HTML",
+            "CSS",
+            "S(A|C)SS",
+            "Javascript",
+            "Typescript",
+            "Angular 2+"
+        ]
+    }, {
+        "name": "Backend",
+        "keywords": [
+            "PHP",
+            "Symfony",
+            "GraphQL",
+            "REST"
+        ]
+    }, {
+        "name": "DevOps",
+        "keywords": [
+            "Docker",
+            "Puppet",
+            "Ansible",
+            "Jenkins"
+        ]
+    }],
+    "languages": [{
+        "language": "English",
+        "fluency": "Verhandlungssicher"
+    }, {
+        "language": "Deutsch",
+        "fluency": "Mutterspraceh"
+    }]
+}
